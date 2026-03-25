@@ -1,0 +1,20 @@
+# File generated/scratch
+inspect_model.py
+model_info.txt
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model Files
+# Ignore these because Streamlit only needs the TFLite model,
+# and these folders might be too large for GitHub.
+animal_model_saved/
+animal_model_tfjs/
